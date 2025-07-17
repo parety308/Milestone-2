@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    height: 300px;
+    width:100%;
+    margin-bottom: 5px;
+    gap:5px;
+}
+ img{
+    height: 100%;
+    width:100%;
+    
+}
+.hr2 img{
+   height:calc((100% - 5px) / 2 );
+}
+.row > div{
+    flex:1;
+}
+.hr4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
