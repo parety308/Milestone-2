@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Style</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        a{
+            text-decoration: none;
+        }
+        .login{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            border: 2px solid aquamarine;
+        }
+        .login input{
+            margin-top: 20px;
+        }
+        .form-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+    </style>
+</head> 
+<body>
+    <nav>
+   <div>
+            <a href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+        <a href="">About</a>
+   </div>
+        <a href="">Login</a>
+    </nav>
+    <div class="form-container">
+    <div class="login">
+        <h1>Please Login</h1>
+        <input type="email" name="" id="" placeholder="Your Email" required>
+        <input type="password" name="" id="" placeholder="Your Password" required>
+        <input type="submit" value="login">
+    </div>
+    </div>
+</body>
+</html>
