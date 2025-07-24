@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            height: 200px;
+            width:200px;
+            border: 2px solid yellowgreen;
+            background-color: aquamarine;
+            /* property name |duration |easing function |delay */
+            transition: width 2s linear 1s ;
+        } 
+        .box:hover{
+            background-color: beige;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exploring Transition Property </h1>
+    <ul>
+        <li>Transform: change the shape 'this is a css style Property</li>
+        <li>Transalte :it is a value of the transform style rule .this means move either x,or y ,or both axis </li>
+        <li>Transition:how long it will take to do the change of the shape or color</li>
+    </ul>
+    <div class="box">box-1</div>
+    <div class="box">box-2</div>
+    <div class="box">box-3</div>
+</body>
+</html>
